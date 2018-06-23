@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="jumbotron text-center">
+    <h1>Chat Application</h1>
+    <p class="lead">Welcome to FivePoints Chat App</p>
+    <div *ngIf="!this.authService.loggedIn()">
+      <a class="btn btn-primary" [routerLink]="['/register']">Register</a>
+      <span style="margin-left:4px; margin-right:4px;">or</span>
+      <a class="btn btn-info" [routerLink]="['/login']">Login</a>
+    </div>
+
+    <div *ngIf="this.authService.loggedIn()">
+      <a class="btn btn-success" [routerLink]="['/chat']">Try chat</a>
+    </div>
+  </div>
+
+
+</div>
