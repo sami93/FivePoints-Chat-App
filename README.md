@@ -6,9 +6,30 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
 
+
+##à propos du lancement du projet :
+git clone https://github.com/sami93/FivePoints-Chat-App 
+
+cd nom_dossier
+
+npm install 
+
+mongod
+npm start 
+
+ou 
+
+npm run dev
+
+cd angular-src
+
+npm install 
+npm start ou ng serve
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
 
 ## Running unit tests
 
